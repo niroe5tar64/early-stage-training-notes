@@ -1,7 +1,6 @@
-const date = new Date();
-const year = date.getFullYear();
-const month = date.getMonth() + 1;
-
 document.addEventListener("DOMContentLoaded", () => {
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = today.getMonth() + 1;
   document.querySelector(".date-display").innerHTML = `${year}年 ${month}月`;
 });

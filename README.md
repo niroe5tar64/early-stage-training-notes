@@ -16,14 +16,10 @@
 学習者の学習進度を日付を分けて記録します。
 - 例: `member-name/progress/yyyy-mm-dd_[subject].md`
 
-### `/member-name/feedback/`
-学習者へのフィードバックを記録します。良かった点や改善すべき点を明確に残すことができます。
-- 例: `member-name/feedback/feedback_[subject].md`
-
 ### `/member-name/issues/`
 チームや個人が直面している課題や問題点を記録します。
 - 例: `member-name/issues/yyyy-mm-dd_[subject].md`
 
-### `/member-name/sample-code/`
-
-- 例: `member-name/sample-code/[subject]`
+### `/member-name/development-exercises/`
+プログラミングの練習課題の成果物を格納します。レビュー指摘事項もここに記録します。
+- 例: `member-name/development-exercises/yyyy-mm-dd_[subject]`

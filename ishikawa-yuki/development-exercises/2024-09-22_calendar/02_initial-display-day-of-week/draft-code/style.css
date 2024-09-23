@@ -1,0 +1,49 @@
+.date-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.calendar {
+  margin: 0 auto;
+  width: auto;
+  border-collapse: collapse;
+}
+
+/* 画面幅が768px未満の場合のスタイル */
+.calendar th,
+.calendar td {
+  padding: 6px;
+  font-size: 12px;
+}
+.calendar th {
+  padding: 3px 6px;
+}
+
+/* 画面幅が768px以上の場合のスタイル */
+@media (min-width: 768px) {
+  .calendar th,
+  .calendar td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .calendar th {
+    padding: 6px 10px;
+  }
+}
+
+.calendar .sun {
+  color: #e17f7e;
+  background-color: #f8e4e2;
+}
+.calendar .sat {
+  color: #7ab6f3;
+  background-color: #e7f6fd;
+}
+.calendar .mute {
+  color: #aaa;
+}
